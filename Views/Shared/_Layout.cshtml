@@ -1,0 +1,253 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="~/src/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="~/src/lib/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="~/src/lib/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="~/src/lib/cookieBubble/cookieBubble.css" />
+    <link rel="icon" href="~/src/img/favicon.gif">
+    <meta name="viewport" content="width=device-width">
+    <title>Stolarstwo-ciesielstwo Adam Zając</title>
+</head>
+<body>
+    <!--HEADER-->
+    <div class="headerContainer">
+        <!--headScroll.js-->
+        <div class="headerBackground background-element"></div>
+        <div class="headerText">
+            <span>Stolarstwo-Ciesielstwo</span><br />
+            <span>USŁUGI Adam Zając</span>
+        </div>
+        <!--NAVBAR MAIN-->
+        <div class="headerButtons">
+            <span><a class="btn start">Oferta</a></span>
+            <span><a class="btn onas">O Nas</a></span>
+            <span><a class="btn kontakt">Kontakt</a></span>
+        </div>
+        <!--NAVBAR STICKY-->
+        <div class="stickyContainer">
+            <div class="stickyButtons">
+                <span><a class="btn start">Oferta</a></span>
+                <span><a class="btn onas">O Nas</a></span>
+                <span><a class="btn kontakt">Kontakt</a></span>
+            </div>
+        </div>
+    </div>
+    <!--OFFER-->
+    <dir class="sectionContainer" id="offer">
+        <div class="sectionHeader">
+            Oferta Zakładu
+        </div>
+        <!--HORIZONTAL BAR-->
+        <div class="sectionUnderline"></div>
+        <div class="offers">
+            <div class="offerWrapper" id="wewnetrzne">
+                <span class="txt">Drzwi Wewnętrzne</span>
+                <div class="offerChoice"></div>
+                <div class="offerSample wewnetrzne"></div>
+            </div>
+            <div class="offerWrapper" id="schody">
+                <span>Schody</span>
+                <div class="offerChoice"></div>
+                <div class="offerSample schody"></div>
+            </div>
+            <div class="offerWrapper" id="domki">
+                <span>Domki Letniskowe</span>
+                <div class="offerChoice"></div>
+                <div class="offerSample domki"></div>
+            </div>
+            <div class="offerWrapper" id="galanteria">
+                <span>Galanteria Ogrodowa</span>
+                <div class="offerChoice"></div>
+                <div class="offerSample galanteria"></div>
+            </div>
+            <div class="offerWrapper" id="zewnetrzne">
+                <span>Drzwi Zewnętrzne</span>
+                <div class="offerChoice"></div>
+                <div class="offerSample zewnetrzne"></div>
+            </div>
+            <div class="offerWrapper" id="wyposazenie">
+                <span>Wyposażenie Wnętrz</span>
+                <div class="offerChoice"></div>
+                <div class="offerSample wyposazenie"></div>
+            </div>
+            <div class="offerWrapper" id="ciesielstwo">
+                <span>Roboty Ciesielskie</span>
+                <div class="offerChoice"></div>
+                <div class="offerSample ciesielstwo"></div>
+            </div>
+            <!--STOP FLOATING-->
+            <div style="clear:both;"></div>
+        </div>
+    </dir>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!--MODALS-->
+        <span class="close"></span>
+        <!-- Modal wewnetrzne -->
+        <div class="modal-wewnetrzne modals">
+            <!--wewnetrzne CONTENT-->
+            @{
+                foreach (var image in ViewBag.imagesWewnetrzne)
+                {
+                    <img src="/src/img/wewnetrzne/@image" />
+                }
+            }
+        </div>
+        <div class="modal-schody modals">
+            <!--schody CONTENT-->
+            @{
+                foreach (var image in ViewBag.imagesSchody)
+                {
+                    <img src="/src/img/schody/@image" />
+                }
+            }
+        </div>
+        <div class="modal-domki modals">
+            <!--domki CONTENT-->
+            @{
+                foreach (var image in ViewBag.imagesDomki)
+                {
+                    <img src="/src/img/domki/@image" />
+                }
+            }
+        </div>
+        <div class="modal-galanteria modals">
+            <!--galanteria CONTENT-->
+            @{
+                foreach (var image in ViewBag.imagesGalanteria)
+                {
+                    <img src="/src/img/galanteria/@image" />
+                }
+            }
+        </div>
+        <div class="modal-zewnetrzne modals">
+            <!--zewnetrzne CONTENT-->
+            @{
+                foreach (var image in ViewBag.imagesZewnetrzne)
+                {
+                    <img src="/src/img/zewnetrzne/@image" />
+                }
+            }
+        </div>
+        <div class="modal-wyposazenie modals">
+            <!--wyposazenie CONTENT-->
+            @{
+                foreach (var image in ViewBag.imagesWyposazenie)
+                {
+                    <img src="/src/img/wyposazenie/@image" />
+                }
+            }
+        </div>
+        <div class="modal-ciesielstwo modals">
+            <!--ciesielstwo CONTENT-->
+            @{
+                foreach (var image in ViewBag.imagesCiesielstwo)
+                {
+                    <img src="/src/img/ciesielstwo/@image" />
+                }
+            }
+        </div>
+    </div>
+    <!--ABOUT US-->
+    <dir class="sectionContainer" id="about">
+        <div class="sectionHeader">
+            O Nas
+        </div>
+        <div class="sectionUnderline">
+        </div>
+        <!--aboutScroll.js-->
+        <div class="about">
+            <div class="oFirmie">
+                <span>Firma</span>
+                <div class="oFirmieTxt">
+                    Firma powstała w roku 1995. Od samego początku kładliśmy nacisk na jakość naszych wyrobów - co jest potwierdzone przez naszych klientów.
+                    Z początku świadczyliśmy usługi dla ludności z okolicznych miejscowości.
+                    W miarę upływu lat rynek naszej działalności rozszerzył się nie tylko na obszar Wielkopolski, ale na tereny innych województw.
+                    Wykonujemy usługi nawet dla klientów z innych krajów Unii Europejskiej.
+                    Ofertę swoją kierujemy zarówno do podmiotów gospodarczych jak i do klientów indywidualnych.
+                </div>
+            </div>
+            <div class="oFirmieSide"></div>
+            <div class="wykonujemySide"></div>
+            <div class="wykonujemy">
+                <span>Wykonujemy</span>
+                <div class="wykonujemyTxt">
+                    Drzwi wewnętrzne dostępne w różnych wymiarach i kształtach. Kolorystyka jest dostosowana do życzeń klienta. Schody proste, jednozabiegowe i dwuzabiegowe, kręcone, nakładki na konstrukcje, żelbetowe i stalowe.
+                    Domki letniskowe w systemie szkieletowym z drewna sosnowego lub świerkowego.
+                    Galanteria ogrodowa, czyli altanki, pergole, ławki itp.
+                    Drzwi zewnętrzne dostępne są w różnych wymiarach i kształtach.
+                    Wyposażenie wnętrz, w tym bary, bufety, szatnie - recepcje, meble sklepowe i wiele innych.
+                    Roboty ciesielskie: konstrukcje dachowe, drewniane budynki handlowe, ogrody zimowe, pagody ogrodowe, ekskluzywne zabudowy tarasowe itp.
+                </div>
+            </div>
+        </div>
+    </dir>
+
+    <div>
+        @RenderBody()
+    </div>
+    <!--CONTACT US-->
+    <dir class="sectionContainer" id="contact">
+        <div class="sectionHeader">
+            Kontakt i Dojazd
+        </div>
+        <div class="sectionUnderline">
+        </div>
+        <div class="contact">
+            <a target="_blank" href="https://www.google.com/maps/place/64-140+D%C5%82u%C5%BCyna/@@51.9431929,15.3861095,8z/data=!4m5!3m4!1s0x4705c0a04597a50f:0xe08fbe700b566dea!8m2!3d51.9668904!4d16.3748547?hl=en-US" class="directionsContainer"></a>
+            <div class="contactContainer">
+                <!--BUSINESS CARD-->
+                <div class="BusinessCardContainer">
+                    <div class="card">
+                        <div class="front">
+                            <div class="logo">Stolarstwo - Ciesielstwo<span>Usługi Adam Zając</span></div>
+                        </div>
+                        <div class="back">
+                            <ul>
+                                <li>Tel.: 65 537 05 16</li>
+                                <li>Kom.: 608 091 583</li>
+                                <li style="width: 95%;">Email: biuro@stolarstwo-ciesielstwo.com.pl</li>
+                                <li style="width: 95%;">Adres: Ks. J. Dembińskiego 1, 64-140 Dłużyna, gmina Włoszakowice, Wielkopolskie</li>
+                                <li>NIP: 697-110-76-37</li>
+                                <li>REGON: 410158577</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </dir>
+    <!--COOKIES INFO-->
+    <div class="cookieBubble">
+        <div class="cb-wrapper">
+            <div class="cb-row">
+                <div class="cb-message">
+                    <span>Szanowny użytkowniku, dla Twojej informacji, nasza strona nie korzysta z ciasteczek oraz nie przetwarza Twoich danych. Życzymy miłego z niej korzystania.</span>
+                    <a href="javascript:void(0)" class="gotit-btn">OK</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FOOTER-->
+    <div class="footerContainer">
+        <div class="footerBackground">
+            <div class="footerText">&copy @DateTime.Now.Year - Adam Zając<br /><div style="font-size: 1.5vw;">Design & code - <a href="http://przemyslaw-bak.pl/" target="_blank">przemyslaw-bak.pl</a></div></div>
+        </div>
+    </div>
+    <script src="~/src/js/jquery.js"></script>
+    <script type="text/javascript" src="~/src/lib/slick/slick.js"></script>
+    <script src="~/src/js/headScroll.js"></script>
+    <script src="~/src/js/aboutScroll.js"></script>
+    <script src="~/src/js/stickyNavBar.js"></script>
+    <script src="~/src/js/autoScroll.js"></script>
+    <script src="~/src/js/modalView.js"></script>
+    <script src="~/src/js/plugins.js"></script>
+    <script src="~/src/lib/cookieBubble/cookieBubble.js"></script>
+    <script>
+        $('.cookieBubble').cookieBubble({
+            cookieMaxAge: 30
+        });
+    </script>
+</body>
+</html>

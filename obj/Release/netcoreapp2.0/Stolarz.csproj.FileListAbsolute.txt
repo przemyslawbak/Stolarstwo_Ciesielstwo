@@ -1,0 +1,11 @@
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Stolarstwo_Ciesielstwo\Stolarstwo_Ciesielstwo 2.0 - webio\BasicConfig\bin\Release\netcoreapp2.0\Stolarz.deps.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Stolarstwo_Ciesielstwo\Stolarstwo_Ciesielstwo 2.0 - webio\BasicConfig\bin\Release\netcoreapp2.0\Stolarz.runtimeconfig.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Stolarstwo_Ciesielstwo\Stolarstwo_Ciesielstwo 2.0 - webio\BasicConfig\bin\Release\netcoreapp2.0\Stolarz.runtimeconfig.dev.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Stolarstwo_Ciesielstwo\Stolarstwo_Ciesielstwo 2.0 - webio\BasicConfig\bin\Release\netcoreapp2.0\Stolarz.dll
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Stolarstwo_Ciesielstwo\Stolarstwo_Ciesielstwo 2.0 - webio\BasicConfig\bin\Release\netcoreapp2.0\Stolarz.pdb
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Stolarstwo_Ciesielstwo\Stolarstwo_Ciesielstwo 2.0 - webio\BasicConfig\obj\Release\netcoreapp2.0\Stolarz.csprojAssemblyReference.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Stolarstwo_Ciesielstwo\Stolarstwo_Ciesielstwo 2.0 - webio\BasicConfig\obj\Release\netcoreapp2.0\Stolarz.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Stolarstwo_Ciesielstwo\Stolarstwo_Ciesielstwo 2.0 - webio\BasicConfig\obj\Release\netcoreapp2.0\Stolarz.AssemblyInfoInputs.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Stolarstwo_Ciesielstwo\Stolarstwo_Ciesielstwo 2.0 - webio\BasicConfig\obj\Release\netcoreapp2.0\Stolarz.AssemblyInfo.cs
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Stolarstwo_Ciesielstwo\Stolarstwo_Ciesielstwo 2.0 - webio\BasicConfig\obj\Release\netcoreapp2.0\Stolarz.dll
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Stolarstwo_Ciesielstwo\Stolarstwo_Ciesielstwo 2.0 - webio\BasicConfig\obj\Release\netcoreapp2.0\Stolarz.pdb
