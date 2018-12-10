@@ -15,6 +15,7 @@ namespace BasicConfig.Controllers
             _context = context;
             _hostingEnvironment = hostingEnvironment;
         }
+        //test
         public ViewResult Index()
         {
             string webRootPath = _hostingEnvironment.WebRootPath;
