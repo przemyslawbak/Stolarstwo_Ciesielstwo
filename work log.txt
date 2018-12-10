@@ -1,0 +1,14 @@
+22.10 - general view design in Photoshop,
+23.10 - folders architecture, home controller, start coding layout cshtml,
+24.10 - prepared header, navbar buttons,
+25.10 - coding `offer` view, buttons and hover transmissions,
+26.10 - coding `about` view, general look and backgrounds,
+27.10 - 28.10 - **WEEKEND BREAK, TRAVEL**
+29.10 - removed side empty bar on `about`, hover effect on main header,
+general view of contact, coding `about` view, parallax header, scroll triggered
+`about` text slide, sticky navbar, auto scroll,
+30.10 - footer background, contact busines card flip, footer, offer button`s filter,
+31.10 - background map position corrected, responsive font size corrected,
+small screen responsivity, corrected bisiness card responsivities, modal popups
+for `offer`, modal view and slideshow for various `offer` buttons
+01.11 - optimization of img data source by iterating in folders,
