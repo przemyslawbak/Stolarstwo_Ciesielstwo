@@ -1,3 +1,5 @@
+# Stolarstwo_Ciesielstwo
+
 ## Purpose
 
 Single page commercial web application for small business, where you can find basic information about the firm.
@@ -23,3 +25,7 @@ Single page commercial web application for small business, where you can find ba
   - jQuery,
   - Cookie-Consent-Compliance-Popup,
   - Slick.js.
+
+## Production
+
+01 Nov 2018
