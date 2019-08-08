@@ -14,7 +14,8 @@ Single page commercial web application for small business, where you can find ba
 
 1. Approaches:
   - modal views,
-  - sticky navbar.
+  - sticky navbar,
+  - screen size responsivity in css.
   
 2. Application is using:
   - ASP.NET Core,
